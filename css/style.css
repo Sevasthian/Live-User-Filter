@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSans-Regular";
+    box-sizing: border-box;
+}
+.header_information{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    background-color: blue;
+    color: white;
+    gap: 2vh;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+.Contact{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.Contact img{
+    grid-column-start: 1;
+    justify-content: left;
+}
+
+.Contact h2{
+    grid-column-start: 2;
+    justify-self: start;
+}
+
+.Contact span{
+    grid-column-start: 2;
+    justify-content: left;
+}
